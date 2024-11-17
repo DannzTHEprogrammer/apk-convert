@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to PDF & PDF to Image Converter</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link ke file CSS eksternal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script> <!-- CDN pdf.js -->
+</head>
+<body>
+    <!-- Tampilan Utama -->
+    <div class="container">
+        <header>
+            <h1>Ubah gmbar mu mnjdi PDF & PDF mnjadi gmbar hnya dlm hitungan detik</h1>
+            <p class="subtitle">Convert multiple images into one PDF file, or convert PDF pages to images.</p>
+        </header>
+
+        <div class="content">
+            <button id="startButton" onclick="startConversion()">Start Image to PDF</button>
+            <input type="file" id="imgInput" accept="image/*" multiple style="display:none" onchange="previewImages()">
+            
+            <button id="startButtonPdf" onclick="startPdfToImage()">Start PDF to Image</button>
+            <input type="file" id="pdfInput" accept="application/pdf" style="display:none" onchange="convertPdfToImage()">
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link ke file JavaScript -->
+</body>
+</html>

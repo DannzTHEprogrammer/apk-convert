@@ -1,0 +1,97 @@
+/* Atur ulang margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gunakan font dan latar belakang menarik */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6c5ce7, #00b894); /* Gradasi warna */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Container utama untuk mengatur layout */
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparan untuk efek modern */
+    border-radius: 15px;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Header dengan judul */
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header .subtitle {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Tombol mulai dengan animasi */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+/* Tampilan footer yang baru ditambahkan */
+.footer {
+    background-color: #2c3e50; /* Warna latar belakang footer */
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px; /* Jarak antara bagian utama dan footer */
+    border-radius: 10px;
+}
+
+/* Judul di footer */
+.footer h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Deskripsi di footer */
+.footer p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Tombol Start di footer */
+.footer button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
